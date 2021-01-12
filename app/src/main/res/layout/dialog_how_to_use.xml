@@ -1,0 +1,44 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:background="#ffffffff"
+    android:orientation="vertical"
+    android:padding="5dp">
+
+    <ImageView
+        android:id="@+id/a"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:background="#FFF"
+        android:gravity="center"
+        android:scaleType="fitCenter"
+        android:src="@drawable/ic_phone_android_black_24dp" />
+
+    <TextView
+        android:id="@+id/text_dialog"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="4dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="4dp"
+        android:layout_marginBottom="20dp"
+        android:gravity="center_horizontal"
+        android:text="Sending a WhatsApp text to a number which is not saved in your contact list is time taking, but\n
+Now with this App you can easily send text to the unsaved numbers by just dialing the number and put asterisk (*) at the end.\n
+Just enter your own intro text in the app and it is automatically send to the number when you dial their number and put asterisk (*) sign at the end and tap on call button.\n"
+        android:textColor="#ff000000"
+        android:textSize="18sp" />
+
+<TextView
+    android:textColor="@android:color/black"
+    android:textSize="18sp"
+    android:layout_below="@+id/text_dialog"
+    android:layout_alignParentRight="true"
+    android:padding="5dp"
+    android:layout_width="wrap_content"
+    android:text="Enjoy...!"
+    android:layout_height="wrap_content"/>
+</RelativeLayout>

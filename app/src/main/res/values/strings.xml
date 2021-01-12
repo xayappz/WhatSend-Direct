@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">WhatSend Direct</string>
+    <string name="how_to_use">How To Use ?</string>
+    <string name="rate_app">Rate App</string>
+    <string name="intro">New Intro Text e.g.(Hey, I am Xay)</string>
+    <string name="bannerId">913887302325158_914107575636464</string>
+
+    <string name="slide_1_title">Now Send Text To Any Number On WhatsApp Without Saving Number</string>
+
+    <string name="slide_2_title">Simple Easy And Time Saving</string>
+
+    <string name="slide_3_title">Start Now</string>
+    <string name="next">Next</string>
+    <string name="OK">Go</string>
+
+
+</resources>
